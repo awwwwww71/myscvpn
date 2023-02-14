@@ -154,7 +154,7 @@ echo -e ""
 sleep 2
 mkdir /var/lib/maswayvpn;
 echo "IP=" >> /var/lib/maswayvpn/ipvps.conf
-wget https://${akbarvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/mymasway/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
